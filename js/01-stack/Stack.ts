@@ -5,5 +5,4 @@ export default interface Stack<T> {
   isEmpty(): boolean;
   clear(): void;
   size(): number;
-  toString(): string;
 }
