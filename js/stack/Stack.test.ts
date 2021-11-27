@@ -1,12 +1,6 @@
-import ArrayStack from './solutions/ArrayStack';
-import ObjectStack from './solutions/ObjectStack';
+import Stacks from './solutions';
 
-const Stacks = describe.each([
-  { Stack: ArrayStack, name: 'ArrayStack' },
-  { Stack: ObjectStack, name: 'ObjectStack' },
-]);
-
-Stacks('Stack', ({ Stack, name }) => {
+describe.each(Stacks)('Stack', ({ Stack, name }) => {
   let stack;
 
   beforeEach(() => {
@@ -116,7 +110,7 @@ Stacks('Stack', ({ Stack, name }) => {
     expect(stack.isEmpty()).toBe(true);
   });
 
-  it(`[${name}]  clears the stack`, () => {
+  it(`[${name}] clears the stack`, () => {
     stack.clear();
     expect(stack.isEmpty()).toBe(true);
 
