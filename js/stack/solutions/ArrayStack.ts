@@ -1,4 +1,4 @@
-import Stack from './Stack';
+import Stack from '../Stack';
 
 export default class ArrayStack<T> implements Stack<T> {
   #items: T[] = [];
