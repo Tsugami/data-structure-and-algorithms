@@ -1,13 +1,13 @@
 # Implementation of data structure and algorithms
 
-| Data Structure          | JS | C |   |   |
-|------------|----|---|---|---|
-| Stack      | ✅  |   |   |   |
-| Queue      | ✅  |   |   |   |
-| Deque      |    |   |   |   |
-| LinkedList |    |   |   |   |
-|            |    |   |   |   |
+| Data Structure | JS  | C   |     |     |
+| -------------- | --- | --- | --- | --- |
+| Stack          | ✅  |     |     |     |
+| Queue          | ✅  |     |     |     |
+| Deque          |     |     |     |     |
+| LinkedList     |     |     |     |     |
+|                |     |     |     |     |
 
-| Algorithm | JS | C |
-| ---------- | --- | -- |
-| Bubble Sort | | ✅   |
+| Algorithm   | JS  | C   |
+| ----------- | --- | --- |
+| Bubble Sort |     | ✅  |

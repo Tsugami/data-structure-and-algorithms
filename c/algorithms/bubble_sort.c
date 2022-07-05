@@ -9,33 +9,27 @@ int main()
   int index = 0;
   int cur_index = 0;
 
-  while (cur_index != arr_last_index)
-  {
-    if (cur_index == index)
-    {
+  while (cur_index != arr_last_index) {
+    if (cur_index == index) {
       index++;
-      continue;
-    }
-    else if (arr[cur_index] > arr[index])
-    {
+
+    } else if (arr[cur_index] > arr[index]) {
       int cur_value = arr[cur_index];
 
       arr[cur_index] = arr[index];
       arr[index] = cur_value;
-    }
-    else if (index == arr_last_index)
-    {
+
+    } else if (index == arr_last_index) {
       cur_index++;
       index = cur_index;
-    }
-    else
-    {
+
+    } else {
       index++;
+
     }
   }
 
-  for (int i = 0; i <= arr_last_index; i++)
-  {
+  for (int i = 0; i <= arr_last_index; i++) {
     printf("%d ", arr[i]);
   }
 
